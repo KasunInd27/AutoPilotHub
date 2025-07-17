@@ -1,0 +1,106 @@
+@charset "UTF-8";
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+        }
+        
+.logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-green {
+    color: #34d399; /* Tailwind's green-400 */
+    font-weight: bold;
+    font-size: 1.875rem; /* Equivalent to Tailwind's text-3xl */
+  }
+  
+  .logo-white {
+    color: white;
+    font-weight: bold;
+    font-size: 1.875rem;
+    margin-left: 0.25rem; /* Tailwind's ml-1 = 4px */
+  }
+  
+   h1 {
+    color: #2d6a4f; /* Sage green */
+    
+   }
+  
+  header {
+    background-color: #2c3e50; 
+    color: white;
+    padding: 16px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .logo {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  header nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 15px 16px;
+  }
+  
+  header nav a:hover {
+    background-color: #34d399;
+    
+  }
+    .update-btn {
+    background-color: #34d399;
+    color: black;
+    border: 2px solid black;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 10px;
+  }
+
+  .update-btn:hover {
+    background-color: #2bbf84;
+  }
+
+  .delete-btn {
+    background-color: #ff6666;
+    color: black;
+    border: 2px solid black;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 10px;
+    
+  }
+
+  .delete-btn:hover {
+    background-color: #d62828;
+  }
+  
+  table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+ th, td {
+ border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+ tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+  
