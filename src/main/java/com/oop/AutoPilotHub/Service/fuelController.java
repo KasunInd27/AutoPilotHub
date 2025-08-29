@@ -145,9 +145,12 @@ public class fuelController {
 		return isSuccess;
   
 }
-	//Delete Data
+     //Delete data
+
 	public static boolean deletedata(String id) {
+
 		int covertedId=Integer.parseInt(id);
+
 		try {
 			//DB Connection
 			con=DBConnection.getConnection();
@@ -156,8 +159,7 @@ public class fuelController {
 			int rs=stmt.executeUpdate(sql);
 			
 			if(rs>0) {
-				isSuccess=true;
-				
+				isSuccess=true;	
 			}
 			else {
 				isSuccess=false;
